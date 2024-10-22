@@ -46,5 +46,5 @@ This project is for educational purposes only. No copyrighted material from Rock
 To get started, clone this repository:
 
 ```bash
-git clone https://github.com/your-repo/gta-san-andreas-reverse-engineering.git
-cd gta-san-andreas-reverse-engineering
+git clone https://github.com/darksys0x/gta_san_code_reverse.git
+cd gta_san_code_reverse
