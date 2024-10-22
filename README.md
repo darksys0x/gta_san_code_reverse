@@ -10,7 +10,7 @@
 
 This project focuses on reverse engineering the popular video game **Grand Theft Auto: San Andreas**. The goal is to analyze and understand the inner workings of the game by reversing the functions and mechanics that make up its gameplay. This includes studying the executable files, game mechanics, and the underlying architecture used by the developers.
 
-By reverse engineering, we aim to:
+By reverse engineering, I aim to:
 
 - Understand how various systems (graphics, physics, AI) operate.
 - Identify key functions responsible for game logic and mechanics.
