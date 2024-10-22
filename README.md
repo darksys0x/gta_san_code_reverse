@@ -2,6 +2,10 @@
 
 ![GTA San Andreas](./images/gta_san_andreas_cover.png)
 
+
+
+
+
 ## Project Overview
 
 This project focuses on reverse engineering the popular video game **Grand Theft Auto: San Andreas**. The goal is to analyze and understand the inner workings of the game by reversing the functions and mechanics that make up its gameplay. This includes studying the executable files, game mechanics, and the underlying architecture used by the developers.
