@@ -35,7 +35,6 @@ esp       |       esp        |
 
 
 
-
 class Myclass { //this class scope in byte_B5F8B8
 public:
 	
