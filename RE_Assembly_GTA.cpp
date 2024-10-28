@@ -46,16 +46,6 @@ char dword_B7CB84; // type unknown | = edi
 //Mycalss3 byte_B5F8B8;
 
 
-
-
-
-
-
-
-
-
-
-
 class MainClass1 {
 public:
 	
