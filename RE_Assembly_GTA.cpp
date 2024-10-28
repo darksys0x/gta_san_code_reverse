@@ -1,5 +1,41 @@
 #include <iostream>
 
+
+
+
+// stack structure
+
+
+/*
+          +------------------+
+esp + 36  |       arg1       |
+          +------------------+
+esp + 32  |      return      |
+          +------------------+
+esp + 28  |       var1       |
+          +------------------+
+esp + 24  |       var2       |
+          +------------------+
+esp + 20  |       var3       |
+          +------------------+
+esp + 16  |       ebx        |
+          +------------------+
+esp + 12  |       ebp        |
+          +------------------+
+esp + 8   |       esi        |
+          +------------------+
+esp + 4   |       edi        |
+          +------------------+
+esp       |       esp        |
+          +------------------+
+*/
+
+// stack structure
+
+
+
+
+
 class Myclass { //this class scope in byte_B5F8B8
 public:
 	
