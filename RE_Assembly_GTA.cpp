@@ -33,8 +33,6 @@ esp       |       esp        |
 // stack structure
 
 
-
-
 class Myclass { //this class scope in byte_B5F8B8
 public:
 	
