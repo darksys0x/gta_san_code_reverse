@@ -142,7 +142,8 @@ void MainClass1::sub_4E2350(int arg1) {
 				{
 					memeeePublcccToUsing = &var_def_4E23CA->mem4;
 				}
-
+				//loc_4E24B7
+				int xx_eax = *(memeeePublcccToUsing);
 
 
 			}
