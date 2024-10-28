@@ -1,4 +1,4 @@
-ext:004E2350                         sub_4E2350      proc near               ; CODE XREF: sub_4E2BB0+106↓p
+.text:004E2350                         sub_4E2350      proc near               ; CODE XREF: sub_4E2BB0+106↓p
 .text:004E2350
 .text:004E2350                         var_C           = dword ptr -0Ch
 .text:004E2350                         var_8           = dword ptr -8
