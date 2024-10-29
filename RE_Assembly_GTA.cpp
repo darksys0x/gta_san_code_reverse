@@ -45,17 +45,6 @@ char dword_B7CB84; // type unknown | = edi
 //
 //Mycalss3 byte_B5F8B8;
 
-
-
-
-
-
-
-
-
-
-
-
 class MainClass1 {
 public:
 	char padding[0x8];
@@ -69,12 +58,6 @@ public:
 
 
 //void function last thing
-
-
-
-
-
-
 class myclass3 {
 public:	
 	char padding[0x4];
