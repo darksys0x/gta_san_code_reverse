@@ -159,16 +159,7 @@ void MainClass1::sub_4E2350(int arg1) {
 	
 
 }
-mov     edx, [esp + 1Ch + var_4]
-.text:004E24BB 6A 00                                   push    0
-.text : 004E24BD 6A 00                                   push    0
-.text : 004E24BF 68 84 00 00 00                          push    84h
-.text : 004E24C4 6A 00                                   push    0
-.text : 004E24C6 68 00 00 80 3F                          push    3F800000h
-.text : 004E24CB 6A 00                                   push    0
-.text : 004E24CD 68 00 00 00 40                          push    40000000h
-.text : 004E24D2 52                                      push    edx
-.text : 004E24D3 8B 10                                   mov     edx, [eax]
+
 int main() {
 
 	
