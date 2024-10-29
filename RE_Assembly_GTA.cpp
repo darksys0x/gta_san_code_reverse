@@ -72,6 +72,9 @@ public:
 
 
 
+
+
+
 class myclass3 {
 public:	
 	char padding[0x4];
