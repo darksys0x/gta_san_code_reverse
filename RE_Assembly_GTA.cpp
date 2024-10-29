@@ -66,7 +66,6 @@ public:
 	myclass4* mem14;
 };
 
-
 class myclass4 {
 public: 
 	char padding[0x30];
