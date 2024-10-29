@@ -11,6 +11,7 @@ public:
 
 Myclass byte_B5F8B8;  //ecx, offset 
 
+
 class Myclass2 { // unk_B6BC90
 public:
 	char sub_506D90();
