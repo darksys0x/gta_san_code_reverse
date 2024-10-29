@@ -28,7 +28,7 @@ Myclass2 unk_B6BC90;
 //why we say this array?
 char dword_BD00F8[];
 
-
+ 
 char dword_B7CB84; // type unknown | = edi
 
 
