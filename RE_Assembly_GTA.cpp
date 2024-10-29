@@ -71,6 +71,7 @@ public:
 	char padding[0x30];
 	int mem30;
 };
+
 class myclass5 {
 public:
 	int nmem;
