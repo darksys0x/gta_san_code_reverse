@@ -67,9 +67,6 @@ public:
 };
 
 
-
-
-
 class myclass4 {
 public: 
 	char padding[0x30];
