@@ -87,10 +87,6 @@ public:
 
 
 
-
-
-
-
 void MainClass1::sub_4E2350(int arg1) {
 	int var1;//  <-- esp + 16
 	int var2; //  <-- esp + 20
