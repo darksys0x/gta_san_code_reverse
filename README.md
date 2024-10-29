@@ -47,4 +47,6 @@ To get started, clone this repository:
 
 ```bash
 git clone https://github.com/darksys0x/gta_san_code_reverse.git
-cd gta_san_code_reverse
+cd gta_san_code_reverse/
+```
+
