@@ -58,8 +58,9 @@ char dword_B7CB84; // type unknown | = edi
 
 class MainClass1 {
 public:
-	
-	char padding[0x94];
+	char padding[0x8];
+	myclass5 mem8;
+	char padding[0x88];
 	myclass3* mem_94;
 public:
 	void sub_4E2350(int arg1);
@@ -87,6 +88,19 @@ public:
 	char padding[0x30];
 	int mem30;
 };
+class myclass5 {
+public:
+	int nmem;
+public:
+	void consruct(int arg1, int arg2, MainClass1* arg3, int arg4, int arg5,
+		int arg6, int arg7, int arg8, int arg9, int arg10,
+		int arg11, int arg12, int arg13, int arg14);
+};
+
+
+
+
+
 
 
 
@@ -118,35 +132,27 @@ void MainClass1::sub_4E2350(int arg1) {
 
 
 
-
-
-		
-
 		if (var_eax > 0x4) {
-			char fun3_myclass2 = byte_B5F8B8.sub_4D88C0(0, 0x29);
-			if (fun3_myclass2) {
-				myclass3* var_def_4E23CA = this->mem_94;
-				myclass4* var_myclass3 = var_def_4E23CA->mem14;
 
-				
+			char fun_byte_B5F8B8 = byte_B5F8B8.sub_4D88C0(0x29, 0);
+			if (fun_byte_B5F8B8) {
+				myclass3* eax_mainclass = this->mem_94;
+				myclass4* ecx_class4 =  eax_mainclass->mem14; // mov     ecx, [eax+14h]
 
-
-				int* memeeePublcccToUsing;
-				
-				if (var_myclass3) {
-				 memeeePublcccToUsing = &var_myclass3->mem30; // lea     eax, [ecx+30h]
-					
-
+				// addressing_ is a pointer to class
+				int* addressing_;
+				if (ecx_class4) {
+					addressing_ =  &ecx_class4->mem30;//lea     eax, [ecx+30h]
 				}
-				else
-				{
-					memeeePublcccToUsing = &var_def_4E23CA->mem4;
+				else {
+					addressing_ =  &eax_mainclass->mem4;
 				}
-				//loc_4E24B7
-				int xx_eax = *(memeeePublcccToUsing);
-
-
 			}
+			//loc_4E24B7
+			myclass5* pointer_ebx= &this->mem8;//lea     ebx, [esi+8]
+			pointer_ebx->consruct(5, var2,this, var3, )
+
+
 		}
 		
 		
@@ -156,9 +162,7 @@ void MainClass1::sub_4E2350(int arg1) {
 
 	}
 	
-	printf("hey\n");
-
-
+	
 
 }
 
